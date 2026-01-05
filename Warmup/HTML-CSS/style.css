@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Top {
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.429);
+    padding-bottom: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.spans {
+    display: flex;
+   gap: 40px;
+}
+
+nav img {
+    width: 175px;
+}
+
+span img {
+    width: 25px;
+}
+
+.Bottom {
+    display: flex;
+    justify-content: space-around;
+}
