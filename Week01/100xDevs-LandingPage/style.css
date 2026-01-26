@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgb(235, 237, 240);
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top {
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.nav .left {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.nav .left a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav .left .dev {
+    font: bold;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav .left .dev span {
+    color: red;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 5px;
+    gap: 10px;
+    padding: 5px;
+}
+
+.search img {
+    width: 25px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+}
+
+.right .logo {
+    background-color: rgb(119, 0, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: black;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main .one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 75px;
+    gap: 100px;
+}
+
+.main .one .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.main .one .left .headTop {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    border: 2px dotted black;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.main .one .left .headTop .dot {
+    background-color: aqua;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.main .one .left .mainHead{
+    color: rgb(9, 9, 114);
+    font-size: 35px;
+}
+
+.main .one .left .para p{
+    color: rgba(0, 0, 0, 0.774);
+    line-height: 1.5;
+}
+
+.main .one .right img{
+    width: 550px;
+}
+
+.main .one .left .bottom {
+    display: flex;
+    gap: 15px;
+}
+
+.main .one .left .bottom button {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    width: 150px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.main .one .left .bottom .btnOne{
+    color: #04042e;
+}
+
+.main .one .left .bottom .btnOne:hover{
+    background-color: rgba(192, 192, 192, 0.315);
+}
+
+.main .one .left .bottom .btnTwo{
+    color: rgb(255, 255, 255);
+    background-color: #001959;
+}
+
+.main .two .twoMain{
+    margin-top: 50px;
+    background-color: #001959;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 25px 250px 25px 25px;
+}
+
+.main .two .twoMain .twoRecords {
+    display: flex;
+    padding: 60px;
+    gap: 25px;
+    align-items: center;
+}
+
+.number{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.slash {
+    font-size: 105px;
+}
+
+.image {
+    background-color: #babaffb2;
+    width: 50px;
+    border-radius: 0px 10px 0px 10px;
+    padding: 10px;
+}
+
+.threeMain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    gap: 30px;
+    color: white;
+}
+
+.threeLeft {
+    background-color: rgba(9, 128, 25, 0.733);
+    border-radius: 10px 50px 10px 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headpara {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Desc{
+    font-size: 18px;
+}
+
+.threeBox {
+    display: flex;
+    gap: 35px;
+}
+
+.box {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgba(9, 128, 25, 0.733);
+    font-size: 14px;
+}
+
+
+.threeRight{
+    background-color: #001959;
+    padding: 55px;
+    border-radius: 15px 50px 15px 50px;
+}
+
